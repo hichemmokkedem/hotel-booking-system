@@ -1,6 +1,7 @@
 @echo off
-cd frontend
+pushd "%~dp0frontend"
 echo Installing dependencies...
 npm install
 echo Starting Frontend...
 npm run dev
+popd
