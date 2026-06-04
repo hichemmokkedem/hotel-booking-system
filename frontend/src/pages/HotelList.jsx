@@ -175,8 +175,10 @@ export default function HotelList() {
                                     <Link to={`/hotels/${hotel.id}`} className="btn-primary" style={{
                                         display: 'inline-flex',
                                         alignItems: 'center',
+                                        justifyContent: 'center',
                                         gap: '0.5rem',
-                                        padding: '0.75rem 1.5rem',
+                                        width: 'fit-content',
+                                        padding: '0.6rem 1.5rem',
                                         fontSize: '0.95rem',
                                         whiteSpace: 'nowrap'
                                     }}>
